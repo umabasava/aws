@@ -7,5 +7,5 @@
 
  read -s PASSWORD
 
- echo "username is: $USERNAME, password is: $PASSWORD
+ echo "username is: $USERNAME, password is: $PASSWORD"
 
