@@ -1,5 +1,8 @@
 #!/bin/bash
- MOVIES=("RRR" "BAHUBALI" "KING")
-  echo "First movie is : ${MOVIES[0]}"
-  echo "First movie is : ${MOVIES[1]}"
-  echo "first movie is : ${MOVIES[@]}"
+
+NO1=$1
+NO2=$2
+
+SUM=$(($NO1+$NO2))
+
+echo "total of $NO1 and $NO2 is: $SUM"
