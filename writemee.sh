@@ -1,8 +1,10 @@
-#!/bin/bash
+#!bin/bash
+ NUMBER=$1
 
-NO1=$1
-NO2=$2
+ if [ $NUMBER -gt 10 ]
+ then 
+    echo "Given $Number is greater than 10"
+ else
+    echo "Given $NUMBER is less than 10"
+    fi   
 
-SUM=$(($NO1+$NO2))
-
-echo "total of $NO1 and $NO2 is: $SUM"
