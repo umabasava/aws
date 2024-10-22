@@ -1,10 +1,17 @@
 #!bin/bash
- NUMBER=$1
+USERID=$(id -u)
+validate (){
+   echo "Exit status: $1"
+   echo "What are you doing: $2"
 
- if [ $NUMBER -gt 10 ]
- then 
-    echo "Given $Number is greater than 10"
- else
-    echo "Given $NUMBER is less than 10"
-    fi   
-
+}
+if [ $USERID -ne 0 ]
+echo "please run this script with root access"
+exit 1
+else
+echo "you are super user"
+fi
+dnf install mysql -y
+validate $? "INSTALLING MYSQL"
+dnf install git -y
+validate $? "Installing MYSQL"
