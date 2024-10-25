@@ -1,3 +1,5 @@
 #!/bin/bash
-
-echo " HELLO , IAM LEARNING DEVOPS " 
+ echo  "ramesh:: hii suresh"
+ echo  "suresh:: hii ramesh"
+ echo  "ramesh:: how are you suresh"
+ echo  "suresh:: iam fine ramesh" 
