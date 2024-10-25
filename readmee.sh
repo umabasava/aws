@@ -1,1 +1,1 @@
-echo " scan"
+echo " scans"
